@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+:root{
+    -main-color:#ff2c1f;
+    -text-color:#020307;
+    -bg-color:#fff;
+
+}
+body{
+    background: black;
+    color: white;
+} 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    transition: 0.5s;
+    background-color: lightpink;
+    /*background: #ff2c1f;*/
+}
+.logo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.logo .bx{
+    font-size: 24px;
+    color: #ff2c1f;
+}
+.navbar{
+    display: flex;
+    column-gap: 5rem;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+.navbar a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.4s all linear;
+}
+.navbar a:hover::after,
+ .navbar .home-active::after{
+    width: 100%;
+    background-color:red;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000001;
+    display: none;
+}
+.btn{
+    padding: 0.7rem 1.4rem;
+    background: red;
+    font-weight: 400;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+ color: #fff;
+}
+.container{
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgb(2,3,7,0);
+}
+container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+.carousel-item .btn{
+    height: 40px;
+    width: 130px;
+    background-color:red;
+    color: white;
+}
+.carousel-item .btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .movies-container{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .box .box-img{
+    width: 100%;
+    height: 270px;
+  }
+  .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+  }
+  .movies{
+    background-color: #020307;
+    color: #f1f1f1;
+  }
+  .Coming-container{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .box .box-img{
+    width: 100%;
+    height: 270px;
+  }
+  .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+  }
+.coming{
+    background-color: #020307;
+    color: white;
+}
+.Actvity-container{
+  max-width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.box .box-img{
+  width: 100%;
+  height: 270px;
+}
+.box .box-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box .box-img img:hover{
+  transform: translateY(-10px);
+  transition: 0.2s all linear;
+}
+.Activity{
+  background-color: #020307;
+  color: white;
+}
+.up{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  background-color: #b02525;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+} 
+
+.contact{
+  background-image: url(https://media.istockphoto.com/id/1007557230/photo/movie-projector-on-dark-background.jpg?s=612x612&w=0&k=20&c=bPgXKrqKU4nrWgJ_RXgLe9KN4SIitgTIcRobxxBiXTo=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  width: auto;
+  height: 500px;
+  color: white;
+  background-color: #020307;
+}
+.contact a{
+
+  padding: 2px;
+  display: flex;
+  
+  justify-content: center;
+  font-size: 3rem;
+
+
+  color: red;
+}
+.contact a:hover{
+  color: aqua;
+}
+.contact form{
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+.contact form .btn{
+  background-color: crimson;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+.contact h1{
+  
+  color: red;
+  text-align: center;
+}
+.contact form .btn:hover{
+  background-color: green;
+  color: white;
+}
+
+
+

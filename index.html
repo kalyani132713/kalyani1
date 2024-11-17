@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive movies website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <a href="#">
+    <div class="up">
+      <i class="fa-solid fa-angle-up" style="color: black;"></i>
+    </div>
+  </a>
+    <header>
+        <a href="#" class="logo">
+        <i class='bx bxs-camera-movie' ></i> movies</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#Home" class="home active">Home</a></li>
+            <li><a href="#movies">movies</a></li>
+            <li><a href="#Coming">Coming</a></li>
+            <li><a href="#Activity">Activity</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <a href="#" class="btn" style="color: red;">Sign In</a>/
+        
+    </header>
+    
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images3.alphacoders.com/932/thumb-1920-932825.jpg" class="d-block w-100" height="800px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+             <big> <h1 style="color: red;">venom</h1></big>
+             <button class="btn">Book Now</button> 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.hindustantimes.com/ht-img/img/2023/11/01/1600x900/Screenshot_2023-06-02_105309_1685683406455_1698859576740.png" class="d-block w-100" height="800px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+              <big><h1 style="color: red;">Avengers</h1></big>
+              <button class="btn">Book Now</button> 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpapers.com/images/featured/spiderman-background-oycfyb1ksermw921.jpg" class="d-block w-100" height="800px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            
+             <big> <h1 style="color: red ;  " >Spider Man</h1></big>
+             <button class="btn">Book Now</button> 
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="movies" id="movies">
+        <h2 class="heading">Opening this week</h2>
+        <div class="movies-container">
+          <div class="box">
+            <div class="box-img">
+              <img src="https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/50836563.jpg" alt="">
+              </div>
+        <h3>Krish</h3>
+        <span>Rs 120/- min !Action</span>
+        <button style="color: white; background-color: red;">Book now</button>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/l2hwwi80/poster/y/n/y/small-poster-bahubali-part-2-baahubali-2-first-look-bahubali-the-original-imagdtv9fk6us8f3.jpeg?q=90&crop=false" alt="">
+        </div>
+    <h3>Bahubali</h3>
+    <span>Rs 120/- min !History</span>
+    <button style="color: white; background-color: red;">Book now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSIc2NbKn4NMjX23Sv3VVFq5oNQ11XoO86g&s" alt="">
+    
+    </div>
+<h3>Nanna ki prematho</h3>
+<span>Rs 120/- min !love b/w father and son</span>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://upload.wikimedia.org/wikipedia/en/d/d7/Hi_Nanna_poster.jpg" alt="">
+
+</div>
+<h3>Hii Nanna</h3>
+<span>Rs 120/- min !<br>Love and father and daughter love</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42XT7OnpjUSZMB3EQQ9flc2KUIwtP8BIB0Q&s" alt="">
+
+</div>
+<h3>Radhe syam</h3>
+<span>Rs 120/- min !<br>Love</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://timesofindia.indiatimes.com/photo/80096078.cms" alt="">
+</div>
+<h3>Animal</h3>
+<span>Rs 120/- min !<br>Love b/w father and son</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://i.pinimg.com/originals/54/7c/4b/547c4b72edfc36d1d82a31d2365f3c30.jpg" alt="">
+
+</div>
+<h3>Godhavari</h3>
+<span>Rs 120/- min !<br>small story of Godhavari</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://m.media-amazon.com/images/M/MV5BNDQ3Y2RlOTgtNTFmMy00NmM0LWFmNzYtOTI5OTNhYmM2NmJmXkEyXkFqcGc@._V1_.jpg" alt="">
+</div>
+<h3>Aanandh</h3>
+<span>Rs 120/- min !<br>love story</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+<div class="box-img">
+  <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Mahanati_poster.jpg" alt="">
+</div>
+<h3>Mahanati</h3>
+<span>Rs 120/-  min !<br> Bio of Savithri</span>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+    <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/masooda-et00344434-1668076903.jpg" alt="">
+  </div>
+        <h3>Masoodha</h3>
+        <span>Rs 120/- min !<br>Horror story</span>
+        <br>
+        <button style="color: white; background-color: red;">Book now</button>
+    </div>
+      </section>
+      <section class="coming" id="Coming"><hr>
+        <h2 class="heading">Coming this week</h2>
+        <div class="Coming-container">
+          <div class="box">
+            <div class="box-img">
+              <img src="https://pbs.twimg.com/media/F_dP1ClbQAAVukM?format=jpg&name=4096x4096" alt="">
+              </div>
+        <h3>Veedokkade</h3>
+        <span>Rs 120/- min !Action</span>
+        <br>
+    
+        <button style="color: white; background-color: red;">Book now</button>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="https://idlebrain.com/movie/photogallery/posters-brothers/images/th_posters-brothers13.jpg" alt="">
+        </div>
+    <h3>Brothers</h3>
+    <span>Rs 120/-  min ! <br>  Bond b/w Brothers</span>
+    <br>
+    <button style="color: white; background-color: red;">Book now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+      <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sikandar-et00002596-24-03-2017-19-53-53.jpg" alt="">
+    
+    </div>
+<h3>Sikindar</h3>
+<span>Rs 120/-  min !<br>    Action and love</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbd5kE-tHkQbT3V1iRemvqGqSU-tWo03K6bC0ydDOBtxXxiGfQ0i5LVfKYMxp-Ae8IoDA&usqp=CAU" alt="">
+
+</div>
+<h3>Gang</h3>
+<span>Rs 120/-  min !<br>corruption</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/et00014869.jpg" alt="">
+
+</div>
+<h3>Singam</h3>
+<span>Rs 120/-  min !corruption<br></span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://m.media-amazon.com/images/S/pv-target-images/bece444e9dd8a9426fe3d2cf6f1bdaf364ef650d95beb04b139454305036714f.jpg" alt="">
+</div>
+<h3>Akasham ne hadhu ra</h3>
+<span>Rs 120/-  min !<br>Success story</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://3.bp.blogspot.com/-3WQ4rIu4afc/VBVeCAy2anI/AAAAAAABFAc/SqG_amUiO90/s1600/Ghatikudu-surya-nayanatara-cinemasonglyric.JPG" alt="">
+
+</div>
+<h3>Gatikudu</h3>
+<span>Rs 120/-  min !<br>Love story</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://static.langimg.com/photo/imgsize-161837,msid-69601672/telugu-samayam.jpg" alt="">
+</div>
+<h3>NGK</h3>
+<span>Rs 120/-  min !<br>love story</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+<div class="box-img">
+  <img src="https://images.filmibeat.com/img/popcorn/movie_posters/bandobast-20190628103411-18534.jpg" alt="">
+</div>
+<h3>Bandobasth</h3>
+<span>Rs 120/-  min !<br> Officer story</span>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+    <img src="https://images.filmibeat.com/img/popcorn/movie_posters/rakshasudu-20150525143803-14434.jpg" alt="">
+  </div>
+        <h3>Rakshashudu</h3>
+        <span>Rs 120/-  min !<br>Horror story</span>
+        <br>
+        <button style="color: white; background-color: red;">Book now</button>
+    </div>
+      </section>
+      <section class="Activity" id="Activity"><hr>
+        <h2 class="heading">Activity of events</h2>
+        <div class="Coming-container">
+          <div class="box">
+            <div class="box-img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrajrVwZiruRAVrOs6tWIenORyii3zDHftCg&s" alt="">
+              </div>
+        <h3>Dhee Jodi</h3>
+        
+        <span>Rs 120/- min !</span>
+        <br>
+        <button style="color: white; background-color: red;">Book now</button>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="https://static.digit.in/OTT/v2/images/sa-re-ga-ma-pa-the-singing-superstar-704936.jpg" alt="">
+        </div>
+    <h3>Sa-re-ga-ma-pa</h3>
+    <span>Rs 120/-  min !</span>
+    <br>
+    <button style="color: white; background-color: red;">Book now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2RJ6mjzjQGyuWDSsY19aQH-sRYhvOTQluaQ&s" alt="">
+    
+    </div>
+<h3>Aata</h3>
+<span>Rs 120/-  min !<br>  Dance Show</span>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB12hOMCEWsFZM8_oqDqlPVwYzdwpgPegKEQ&s" alt="">
+
+</div>
+<h3>Bigg Boss</h3>
+<span>Rs 120/- min !<br>Reality show</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://images.sftcdn.net/images/t_app-icon-m/p/9f7777dc-46be-4aa5-a46e-7a01e42b589b/2284085106/jabardasth-comedy-videos-logo" alt="">
+
+</div>
+<h3>Jabardasth</h3>
+<span>Rs 120/-  min ! <br> Comedy show<br></span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAI8UhCxBsLy3K357-GnvYc2lJAdjqsYwiqlM8gFJstjaLabz24AOarHqEqiF0eWXX9yQ&usqp=CAU" alt="">
+</div>
+<h3>Sarkaar</h3>
+<span>Rs 120/- min !<br>Game show</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6EM65I_8L_ww-N4DynPMdpddqLccox7JI5A&s" alt="">
+
+</div>
+<h3>Dance Jodi</h3>
+<span>Rs 120/- min !<br>Dance compitition</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+  <img src="https://m.media-amazon.com/images/M/MV5BOTJiNzBkZDQtNmFlNi00ZTgyLWI5YTQtNWI5NDlkMzY1NDUzXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="">
+</div>
+<h3>Dance Jodi Dance</h3>
+<span>Rs 120/- min !<br>Dance</span>
+<br>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+<div class="box-img">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq7WxDAkOWfhH01pH_kWSReVMPwY6f_M1z2w&s" alt="">
+</div>
+<h3>Konchem touch lo unte chepta</h3>
+<span>Rs 120/- min !<br> Actress chill show</span>
+<button style="color: white; background-color: red;">Book now</button>
+</div>
+<div class="box">
+  <div class="box-img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx81_T0AQR3B-tZmmnmD8o5mYtwgVpYfn3Pw&s" alt="">
+  </div>
+        <h3>Star Mahila</h3>
+        <span>Rs 120/- min !<br>women empowerment</span>
+        <br>
+        <button style="color: white; background-color: red;">Book now</button>
+    </div>
+    <div><i class="fa-solid fa-angle-up" style="color: #FFD43B;"></i></div>
+      </section>
+      <br>
+      <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <h1><u>Install Our Movie App</h1>
+        <br>
+        <form>
+          
+          <input type="submit" value="Install"class="btn">
+        </form>
+        <br>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <br>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <br>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <br>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+         
+          
+  </body>
+  
+  </html>  
+  
